@@ -52,7 +52,7 @@ namespace SnakeConsole
                 // If the snake overlapped itself show GameOver screen
                 if (collision.CheckSnakeCollision())
                 {
-                    playField.DrawGameOver(fieldSizeX, fieldSizeY, snake.Joints);
+                    playField.DrawGameOver(snake.Joints);
                     
                     // If enter is hit application will be closed or if R is hit the game will restart itself
                     if (IsGameOver())

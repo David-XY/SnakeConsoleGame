@@ -73,15 +73,15 @@ namespace SnakeConsole
         }
 
         // Draw GameOver-Screen
-        public void DrawGameOver(int x, int y, int score)
+        public void DrawGameOver(int score)
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            Console.SetCursorPosition((x - 16) / 2, (y / 2) - 2);
+            Console.SetCursorPosition((Width - 16) / 2, (Height / 2) - 2);
             Console.Write("Achieved Score: " + score);
-            Console.SetCursorPosition((x - 8) / 2, y / 2);
+            Console.SetCursorPosition((Width - 8) / 2, Height / 2);
             Console.Write("Game Over");
-            Console.SetCursorPosition((x - 22) / 2, (y / 2) + 1);
+            Console.SetCursorPosition((Width - 22) / 2, (Height / 2) + 1);
             Console.Write("R: Restart | Enter: Quit");
         }
 
