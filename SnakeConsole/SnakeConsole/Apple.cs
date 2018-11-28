@@ -4,7 +4,7 @@ namespace SnakeConsole
 {
     class Apple
     {
-        // Attributes
+        // Fields
         public int PosX { get; set; }
         public int PosY { get; set; }
         public PlayField PlayField { get; set; }

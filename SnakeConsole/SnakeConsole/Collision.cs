@@ -3,7 +3,7 @@ namespace SnakeConsole
 {
     class Collision
     {
-        // Attributes
+        // Fields
         public Snake Snake { get; set; }
         public PlayField PlayField { get; set; }
         public Apple Apple { get; set; }

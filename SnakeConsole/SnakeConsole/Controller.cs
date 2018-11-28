@@ -4,7 +4,7 @@ namespace SnakeConsole
 {
     class Controller
     {
-        // Attributes
+        // Fields
         public Snake Snake { get; set; }
         public Direction CurrentDirection { get; set; }
 

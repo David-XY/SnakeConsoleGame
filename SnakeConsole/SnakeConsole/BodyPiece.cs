@@ -4,7 +4,7 @@ namespace SnakeConsole
 {
     class BodyPiece
     {
-        // Attributes
+        // Fields
         public int PosX { get; private set; }
         public int PosY { get; private set; }
         public int PrevPosX { get; private set; }

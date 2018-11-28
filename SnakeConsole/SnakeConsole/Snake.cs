@@ -4,7 +4,7 @@ namespace SnakeConsole
 {
     class Snake
     {
-        // Attributes
+        // Fields
         public int PosX { get; set; }
         public int PosY { get; set; }
         public int Joints { get; private set; }
